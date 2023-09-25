@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-modulegraph
-Version  : 0.19.5
-Release  : 13
-URL      : https://files.pythonhosted.org/packages/c8/08/88565eeff92d6f0be7a9878c93e2495e1646eee839010230e2ee11e1622e/modulegraph-0.19.5.tar.gz
-Source0  : https://files.pythonhosted.org/packages/c8/08/88565eeff92d6f0be7a9878c93e2495e1646eee839010230e2ee11e1622e/modulegraph-0.19.5.tar.gz
+Version  : 0.19.6
+Release  : 14
+URL      : https://files.pythonhosted.org/packages/12/7a/7d1ef5824553c960b441b937dd26a0f99ea04a8c29a5ed099b7c06e9ef61/modulegraph-0.19.6.tar.gz
+Source0  : https://files.pythonhosted.org/packages/12/7a/7d1ef5824553c960b441b937dd26a0f99ea04a8c29a5ed099b7c06e9ef61/modulegraph-0.19.6.tar.gz
 Summary  : Python module dependency analysis tool
 Group    : Development/Tools
 License  : MIT
@@ -70,10 +70,10 @@ python3 components for the pypi-modulegraph package.
 
 
 %prep
-%setup -q -n modulegraph-0.19.5
-cd %{_builddir}/modulegraph-0.19.5
+%setup -q -n modulegraph-0.19.6
+cd %{_builddir}/modulegraph-0.19.6
 pushd ..
-cp -a modulegraph-0.19.5 buildavx2
+cp -a modulegraph-0.19.6 buildavx2
 popd
 
 %build
@@ -81,7 +81,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1685979808
+export SOURCE_DATE_EPOCH=1695654647
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

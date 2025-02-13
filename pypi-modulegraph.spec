@@ -5,7 +5,7 @@
 #
 Name     : pypi-modulegraph
 Version  : 0.19.6
-Release  : 17
+Release  : 18
 URL      : https://files.pythonhosted.org/packages/12/7a/7d1ef5824553c960b441b937dd26a0f99ea04a8c29a5ed099b7c06e9ef61/modulegraph-0.19.6.tar.gz
 Source0  : https://files.pythonhosted.org/packages/12/7a/7d1ef5824553c960b441b937dd26a0f99ea04a8c29a5ed099b7c06e9ef61/modulegraph-0.19.6.tar.gz
 Summary  : Python module dependency analysis tool
